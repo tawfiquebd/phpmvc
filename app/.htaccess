@@ -1,0 +1,3 @@
+# Close unwanted access in app folder by url
+
+Options -Indexes
