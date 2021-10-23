@@ -17,7 +17,7 @@ class Database {
         );
 
         try {
-            $conn = new PDO($conn, $this->dbUser, $this->dbPass, $options);
+            $this->dbHandler = new PDO($conn, $this->dbUser, $this->dbPass, $options);
 
         }
         catch(PDOException $e) {
